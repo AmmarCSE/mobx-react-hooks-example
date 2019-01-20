@@ -4,13 +4,14 @@ import styled, { css } from "styled-components"
 
 import FoodItemView from "./FoodItemView"
 
+const List = styled.ul`
+  list-style: none;
+  font-family: monospace;
+  width: 50%;
+`
+
 export default function FoodListView(props) {
   const foodList = useObservable(props.foodList)
-  const List = styled.ul`
-    list-style: none;
-    font-family: monospace;
-    width: 50%;
-  `
   return (
     <div>
       <List>
