@@ -7,15 +7,15 @@ const Row = styled.li`
   margin-bottom: 1px;
   border: solid 1px gray;
   background: lightgray;
-  transition: background-color 1000ms linear, margin 700ms;
+  transition: background-color 1000ms linear, transform 700ms;
   ${props =>
-    props.isDelicious &&
-    css`
-      margin-left: 30px;
+  props.isDelicious &&
+  css`
+      transform: translateX(30px);
     `}
   ${(props: object) =>
-    props.isHealthy &&
-    css`
+  props.isHealthy &&
+  css`
       background: darkseagreen;
     `}
 `
