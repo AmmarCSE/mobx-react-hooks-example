@@ -3,21 +3,4 @@
 
 Sample app showing how use **mobx** style **react hooks**.
 
-### How To Run
-
-Install service dependencies
-```
-$ yarn install
-```
-
-**Now you are ready for different commands**
-
-Run tests
-```
-$ yarn tests
-```
-
-Start the service
-```
-$ yarn start
-```
+See it in action: [codesandbox](https://codesandbox.io/embed/1r0q0xr2w7)
